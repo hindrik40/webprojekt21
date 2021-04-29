@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link id="favicon" rel="icon" href="favicon.ico?v=3" type="image/x-icon">
+  <link id="apple-touch-icon" rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=3">
+  <link id="oembed" rel="alternate" type="application/json+oembed" href="" title="oEmbed" />
+  <link rel="stylesheet" type="text/css" href="https://cloud.webtype.com/css/3a8e55c6-b1f3-4659-99eb-125ae72bd084.css">
+  
+  <link rel="stylesheet" type="text/css" href="style.version.1fd130dc80eef2e5dba7.css">
+  
+
+  <script>
+    (function () {
+      try {
+        var path = document.location.hash.split("?")[0].split("/");
+        var domain = path[1];
+
+        var NOT_DOMAINS = [
+          "new-project",
+          "sign-in",
+          "facebook",
+          "sign-out",
+          "sign-up",
+          "email-login"
+        ];
+
+        if (domain === undefined || domain.length === 0 || path.length !== 2 || NOT_DOMAINS.includes(domain)) {
+          return;
+        }
+
+        (new Image()).src = "https://api.glitch.com" + "/" + domain + "/preempt";
+      } catch (e) {
+        console.error(e);
+       }
+    })();
+  </script>
+
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src
+      'self';
+    connect-src
+      'self'
+      api.glitch.com api.glitch.development api.staging.glitch.com api.testing.staging.glitch.com api.glitch.localprojecthost:3031
+      wss://api.glitch.com wss://api.glitch.development wss://api.staging.glitch.com wss://glitch.development wss://api.testing.staging.glitch.com ws://api.glitch.localprojecthost:3031
+      https://*.woopra.com
+      api.segment.io
+      api.github.com
+      libraries.io
+      s3.amazonaws.com
+      https://securetoken.googleapis.com
+      https://www.googleapis.com
+      
+      https://settings.luckyorange.net wss://visitors.live wss://*.visitors.live https://pubsub.googleapis.com https://api.luckyorange.com
+      https://sentry.io
+      
+      https://support-poster.glitch.me/post
+      
+      https://api.amplitude.com
+      
+      https://cdn.optimizely.com
+      
+      https://*.algolianet.com https://*.algolia.net;
+    font-src
+      cloud.webtype.com;
+    frame-src
+      https://*.glitch.me https://*.glitch.staging.me https://*.glitch.development https://*.testing.staging.glitch.com http://*.glitch.localprojecthost:3031
+      https://accounts.google.com
+      https://content-firebase.googleapis.com/
+      
+      https://www.google.com
+      blob:
+      data:
+      'self';
+    img-src
+      'self'
+      https://*
+      blob:
+      data:
+      
+     	https://d10lpsik1i8c69.cloudfront.net;
+    media-src
+      'self'
+      https://*
+      blob:
+      data:;
+    object-src
+      blob:
+      data:
+      'self';
+    script-src
+      'self'
+      
+      
+      
+      https://apis.google.com
+      https://cdnjs.cloudflare.com
+      https://cdn.segment.com
+      https://*.woopra.com
+      'sha256-aROmP5KBVON8dHdF7kTobxNwhI67hJuBpk+jNh/jbM4='
+      'sha256-lIXJkTrfgeKmujhwsIkqzNbMkplZdPFm1ERXsf46uOw='
+      'sha256-To0Iwo79L42agXa29pvaAn64gM4rwT1BflbRPGdqcUg='
+      
+      'sha256-IWN+DH0UXsSKPql06C66AvLM8/jMYbOe+wVRfPlzHDY='
+      
+      http://www.luckyorange.com https://ssl.luckyorange.com https://d10lpsik1i8c69.cloudfront.net
+      
+      https://www.google.com
+      https://www.gstatic.com
+      
+      https://cdn.amplitude.com;
+    style-src
+      'self'
+      'unsafe-inline'
+      https://cloud.webtype.com
+      
+     	https://d10lpsik1i8c69.cloudfront.net;
+    worker-src
+      'self'
+      
+      blob:
+  ">
+
+  <title>Glitch :･ﾟ✧</title>
+  <noscript>
+    <title>Glitch</title>
+  </noscript>
+
+  <meta name="description" content="Combining automated deployment, instant hosting &amp; collaborative editing, Glitch gets you straight to coding so you can build full-stack web apps, fast">
+  <meta name="keywords" content="developer, javascript, nodejs, editor, ide, development, online, web, code editor, html, css">
+
+  <!-- facebook open graph tags -->
+  <meta name="og:type" content="website">
+  <meta name="og:url" content="https://glitch.com">
+  <meta name="og:title" content="Glitch">
+  <meta name="og:description" content="Combining automated deployment, instant hosting &amp; collaborative editing, Glitch gets you straight to coding so you can build full-stack web apps, fast">
+  <meta name="og:image" content="https://glitch.com/edit/images/logos/glitch/social-card@2x.png">
+  <!-- twitter card tags (stacks with og: tags) -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@glitch">
+  <meta name="twitter:title" content="Glitch">
+  <meta name="twitter:description" content="Combining automated deployment, instant hosting &amp; collaborative editing, Glitch gets you straight to coding so you can build full-stack web apps, fast">
+  <meta name="twitter:image" content="https://glitch.com/edit/images/logos/glitch/social-card@2x.png">
+  <meta name="twitter:image:alt" content="Glitch Logo">
+  <meta name="twitter:url" content="https://glitch.com">
+
+  <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";}}();
+  </script>
+
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+  <noscript>
+    <h1>
+      To use Glitch, please enable JavaScript
+    </h1>
+  </noscript>
+
+  <div id="__react-overlay-container"></div>
+  <div id="__react-pop-root"></div>
+  <div id="__react-app-root"></div>
+
+  <div id="__recaptcha"></div>
+
+  
+  <script src="index.version.fe7b1e886fcb6e88c324.js"></script>
+  
+  <script src="https://apis.google.com/js/api.js"></script>
+</body>
+</html>
