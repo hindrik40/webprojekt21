@@ -55,7 +55,7 @@ class CitiesSlider extends React.Component {
                                 React.createElement("h2", { className: "slider__slide-heading" },
                                     slide.city.split('').map(l => React.createElement("span", null, l))),
 
-                                React.createElement("p", { className: "slider__slide-readmore" }, "read more")),
+                                React.createElement("p", { className: "slider__slide-readmore" }, "läs mera")),
 
                             React.createElement("div", { className: "slider__slide-parts" }, [...Array(this.IMAGE_PARTS).fill()].map((x, i) =>
                                 React.createElement("div", { className: "slider__slide-part", key: i },
@@ -75,33 +75,33 @@ class CitiesSlider extends React.Component {
 
 
 const slides = [{
-        city: 'Fiskar',
-        country: 'Fiskar i Koarp',
-        img: 'images/fiskar/f1.jpg'
-    },
-
-    {
-        city: 'mina fiskar',
-
-        img: '../images/v.jpg'
-    },
-
-    {
         city: 'Malawi',
-        country: 'klipplevande',
-        img: 'images/fiskar/golden.jpg'
+        country: 'En udda rovfisk från malawi, fulsnygg tycker jag.',
+        img: 'js/images/fiskar/f1.jpg'
     },
 
     {
-        city: 'Alunocara',
-        country: 'Finns i olika biotoper',
-        img: 'images/fiskar/Alunocara.jpg'
+        city: 'Tanganjika',
+        country: 'En fisk på öppet vatten som bygger jättelika kratrar som han lockar honan till.',
+        img: 'js/images/fiskar/featherfin.jpg'
     },
 
     {
-        city: 'Läkeväxter',
-        country: 'Helande växter',
-        img: '../images/ginger.png'
+        city: 'Viktoriasjön',
+        country: 'En klipplevande ciklid.',
+        img: 'js/images/fiskar/v.jpg'
+    },
+
+    {
+        city: 'Tanganjika',
+        country: 'En klipplevande ciklid som lever på alger som växer på klipporna.',
+        img: 'js/images/fiskar/th.jpg'
+    },
+
+    {
+        city: 'Sydamerika',
+        country: 'Lever i strömmande vatten och hanen tar hand om ungarna.',
+        img: 'js/images/fiskar/mal1.jpg'
     }
 ];
 
