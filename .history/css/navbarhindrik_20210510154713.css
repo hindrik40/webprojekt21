@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Pangolin', cursive;
+}
+
+.navbar {
+    font-size: 18px;
+    background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.main-nav {
+    list-style-type: none;
+}
+
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo {
+    background-image: url(../images/dolphin-logo.png);
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(184, 170, 170, 0.8);
+    font-size: 24px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin: 60px;
+        border-radius: 10px;
+        width: 100px;
+    }
+    .logo {
+        margin-top: 0;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .logo:hover,
+    .nav-links:hover {
+        color: rgb(216, 174, 174);
+    }
+    a.nav-links {
+        width: 50px;
+        height: 25px;
+        color: rgb(17, 16, 16);
+    }
+    ul li a {
+        background-color: whitesmoke;
+        border-radius: 5px;
+        border: 1px solid black;
+        padding: 5px 10px;
+    }
+}
+
+.header {
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 5px;
+    background-image: url(../js/images/hindrik/hindrik.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    margin-bottom: 5px;
+}
+
+.header img {}
+
+.main_content {
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid black;
+    background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
+}
+
+.footer {
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid black;
+    background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
+}
+
+background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
+
+}
+background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
+
+}
