@@ -75,33 +75,35 @@ class CitiesSlider extends React.Component {
 
 
 const slides = [{
-        city: 'Blommor',
-        country: 'Sweden mina blommor',
-        img: 'images/r.jpg'
+        city: 'Sverige',
+        country: 'Alestenar en mytisk skeppssättning',
+        img: 'js/images/myter/as.jpg'
     },
 
     {
-        city: 'mina fiskar',
+        city: 'Indien',
+         country: 'Chrishna som färdas i sin vagn i samtal med Arjuna om krig och fred.',
 
-        img: 'images/v.jpg'
+        img: 'js/images/myter/chris.jpg'
     },
 
     {
-        city: 'Myter',
-        country: 'Sagor och berättelser',
-        img: 'images/alestenar.jpg'
+        city: 'Forntid',
+        country: 'Sigfrid och Beowulf en hjälteberättelse.',
+        img: 'js/images/myter/beo.jpg'
     },
 
     {
-        city: 'Hundar',
-        country: 'Hundens ursprung',
-        img: 'images/h1.jpg'
+        city: 'Greenman',
+        country: 'Den gröna mannen som vårdar naturen och växtligheten. Tom Bombadill i ringen.',
+        img: 'js/images/myter/hd.jpg'
+        
     },
 
     {
-        city: 'Läkeväxter',
-        country: 'Helande växter',
-        img: '../images/ginger.png'
+        city: 'Riter',
+        country: 'Mystiska länder mellan dikt och verklighet.',
+        img: 'js/images/myter/f1.jpg'
     }
 ];
 
