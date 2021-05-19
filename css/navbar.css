@@ -37,8 +37,8 @@ body {
 }
 
 .logo {
-    background-image: url(../images/dolphin-logo.png);
-    display: inline-block;
+    background-image: url(../js/images/logga.png);
+    display: inline-blocks;
     font-size: 1rem;
     margin-top: 10px;
     margin-left: 20px;
