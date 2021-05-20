@@ -15,8 +15,9 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1600px;
+  max-width: 95%;
   margin: 0 auto;
+
 }
 .card_outer {
   display: grid;
@@ -72,9 +73,10 @@ body {
 }
 .card:nth-child(1):before {
   background-image: url(../js/images/blommor/hibiscus.jpg);
+  background-size: cover;
   
   background-repeat: no-repeat;
-  background-size:auto;
+  /*background-size:auto;*/
  
 
 }
