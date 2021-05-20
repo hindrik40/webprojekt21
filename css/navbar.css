@@ -17,6 +17,12 @@ body {
     margin:5px;
    
 }
+button {
+    background-color:burlywood ;
+    width:20%;
+    height:auto;
+    
+}
 
 .main-nav {
     list-style-type: none;
