@@ -34,7 +34,17 @@ body {
     transform: translateY(-30px);
     opacity: 0;
 }
-
+button {
+    background-color:rgb(202, 206, 223) ;
+    width:15%;
+    height:35px;
+    border-radius:5px;
+    border: 3px solid black;
+    margin-bottom: 8px;
+    font-size:12px;
+    font-style: bold;
+    
+}
 .slider.s--ready .slider__top-heading {
     -webkit-transform: translateY(0);
     transform: translateY(0);
